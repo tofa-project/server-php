@@ -109,13 +109,11 @@ class Calls {
     /**
      * Sends a PING call to client
      */
-    function ping(string $uri): bool
+    function ping(string $uri)
     {
         $DecUri = Decode::decode($uri);
 
         $this->makeRequest("PING", $DecUri->toUrl());
-
-        return true;
     }
 
     /**
