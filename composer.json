@@ -1,0 +1,11 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {"TofaProject\\ServerPhp\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"TofaProject\\ServerPhp\\Tests\\": "tests/"}
+    }
+}
