@@ -19,5 +19,6 @@
     },
     "autoload-dev": {
         "psr-4": {"TofaProject\\ServerPhp\\Tests\\": "tests/"}
-    }
+    },
+    "version": "0.0.0"
 }
