@@ -1,14 +1,15 @@
 {
+{
     "name": "tofa/server-php",
     "description": "Tofa adapter for server developers in PHP",
-    "license": "BSD-3-Clause",
-    "keywords": ["tofa"],
-    "version": "0.0.0-alpha0",
+    "type": "library",
     "require": {
         "guzzlehttp/guzzle": "^7.3",
-        "php" : ">=7.4",
-        "ext-curl": "*"
+        "php": ">=7.4",
+        "ext-curl": "^7.4"
     },
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {"TofaProject\\ServerPhp\\": "src/"}
     },
