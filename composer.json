@@ -1,5 +1,4 @@
 {
-{
     "name": "tofa/server-php",
     "description": "Tofa adapter for server developers in PHP",
     "type": "library",
