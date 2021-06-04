@@ -1,7 +1,7 @@
 {
     "name": "tofa/server-php",
     "description": "Tofa adapter for server developers in PHP",
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "license": "BSD-3-Clause",
     "keywords": ["tofa"],
     "require": {
         "guzzlehttp/guzzle": "^7.3",
