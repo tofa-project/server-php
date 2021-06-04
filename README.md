@@ -76,7 +76,7 @@ try {
   /**
   * Attempts to send an INFO call. This is only a notification sent to the Client.
   * It requires Client URI, and metadata so human can recognize your service.
-  * Metadata must contain "name" and "description" (both strings).
+  * Metadata must contain "name" and "auth_token" (both strings).
   * 
   * @returns: void
   *           If any error occurred it will throw an exception
