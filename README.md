@@ -1,5 +1,9 @@
 ## PHP Adapter
-Use this package if you're developing web apps in PHP. It requires Composer.
+Use this package if you're developing web apps in PHP. 
+It requires:
+- Composer
+- PHP >=7.4 ( may work on >=7.2 as well)
+- ext-curl latest
 
 ## Include
 I did not add it to packagist yet.
@@ -7,13 +11,13 @@ I did not add it to packagist yet.
 1. Download it as ZIP and store it somewhere in your project folder.
 2. Update your project composer according to the following scheme (aka require must contain, autoload must contain):
 ```
-  "require": {  
-    "guzzlehttp/guzzle": "^7.3",
-  },
+"require": {  
+  "guzzlehttp/guzzle": "^7.3",
+},
 
-  "autoload": {
-      "psr-4": {"TofaProject\\ServerPhp\\": "where you placed ZIP content/src/"}
-  },
+"autoload": {
+    "psr-4": {"TofaProject\\ServerPhp\\": "[where you placed ZIP content]/src/"}
+},
 ```
 3. Do `composer du`
 
