@@ -7,8 +7,13 @@
         "php": ">=7.4",
         "ext-curl": "^7.4"
     },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.3",
+        "php": ">=7.4",
+        "ext-curl": "^7.4"
+    },
     "license": "BSD-3-Clause",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {"TofaProject\\ServerPhp\\": "src/"}
     },
